@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+.head{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.container{
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 30px;
+    color: white;
+}
+.list ul{
+    display: flex;
+    margin-left: 40%;
+}
+.list li{
+    padding: 10px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color:white;
+}
+.Resume{
+    margin-right: 8%;
+    
+}
+.Resume input{
+    background-color: rgb(227, 87, 36);
+    font-size: larger;
+    color: white;
+    width: 130px;
+    border-radius: 8px;
+    padding: 2px;
+}
+.Someline p{
+        text-align: center;
+        font-size: larger;
+        color: cadetblue;
+}
+.mmain{
+    border-bottom: 2px solid green;
+}
+/* --------------my-projects---------------- */
+.pjt{
+    margin-top: 148px;
+    display: flex;
+    border-bottom: 2px solid red;
+}
+.All-projects{
+    margin-left: 20px;
+}
+.project span{
+    color: orangered;
+}
+.project h2{
+    color: greenyellow;
+}
+.project-1{
+    color: yellow;
+}
+.project-1 li{
+    color: white;
+    margin-bottom: 20px;
+}
+.project-2{
+color: yellow;
+}
+.project-2 li{
+    color: white;
+    margin-bottom: 20px;
+}
+.project-3{
+    color: yellow;
+}
+.project-3 li{
+    color: white;
+    margin-bottom: 27px;
+}
+/* --------------backgound-image------------ */
+.image1{
+
+    width: 100%;
+    height: 550px;
+}
+/* --------------Self-image------------------ */
+.image2 img{
+       width: 300px;
+       height:350px;
+       margin-top: -29.8%;
+       position: absolute;
+       margin-left: 18%;
+       
+}
+/* --------------main----paragraph----------- */
+.test p{
+    font-size: xx-large;
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 50%;
+}
+.test2 p{
+    margin-top: -16%;
+    margin-left: 50%;
+}
+/* ----------button---learn more---hire me----- */
+.batn li {
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 30px;
+}
+.batn input{
+    height:30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(230, 104, 35);
+    color: white;
+}
+.button2{
+    margin-left: 150px;
+}
+.icon-list{
+    background-color: red;
+}
+.ul-list li{
+    padding: 30px;
+}
+.icon-list i{
+   color:black;
+   font-size: larger;
+}
+.icon-list ul{
+    position: absolute;
+    list-style: none;
+    margin-top: -20%;
+}
+.Image-item{
+    margin-left: 50px;
+
+}
+.image3{
+    margin-top: 10%;
+}
+.image4{
+margin-top: -75.3%;
+margin-left: 120px;
+}
+.About-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+.About-me{
+color: white;
+margin-left: 10px;
+}
+.About-me li{
+list-style: none;
+}
+.Education{
+color: white;
+}
+.Education h2{
+    margin-left: 50px;
+}
+.Education li{
+    list-style: none;
+}
+.contact{
+    color: white;
+    margin-right: 5px;
+}
+.contact li{
+    list-style: none;
+}
